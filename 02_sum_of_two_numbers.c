@@ -1,6 +1,9 @@
 #include <stdio.h>
-
 int main() {
-    printf("100 Days of Code - C Programming\n");
+    int a, b, sum;
+    printf("Enter two integers: ");
+    scanf("%d %d", &a, &b);
+    sum = a + b;
+    printf("Sum: %d\n", sum);
     return 0;
 }

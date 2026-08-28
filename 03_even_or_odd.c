@@ -1,6 +1,11 @@
 #include <stdio.h>
-
 int main() {
-    printf("100 Days of Code - C Programming\n");
+    int num;
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+    if(num % 2 == 0)
+        printf("%d is even.\n", num);
+    else
+        printf("%d is odd.\n", num);
     return 0;
 }
